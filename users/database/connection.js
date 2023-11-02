@@ -8,7 +8,7 @@ mongoose.connect(config.dbpath,{
 }).then(()=>{
     console.log("DB connected")
 }).catch((error) => {
-    console.log(erro)
+    console.log(error)
 })
 
 module.exports = mongoose
